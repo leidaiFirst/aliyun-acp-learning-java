@@ -1,5 +1,14 @@
 # 阿里云大模型ACP教程
 
+## Java 对照项目
+
+本仓库在阿里云官方课程基础上新增两套 Java 示例，保留原课程文件，便于逐个 Cell 对照学习：
+
+- [原版 Java 项目](./java-port/README.md)：用 Java 实现课程中已翻译的示例。
+- [框架版 Java 项目](./java-port-framework/README.md)：使用 LangChain4j 和 AgentScope，并补充 2.2 章节的 RAG、索引保存与加载、多轮对话示例。
+
+克隆本仓库后，在 Qoder 中打开 `java-port-framework` 或 `java-port` 目录。百炼 API Key 请配置在仓库根目录的 `.env`，该文件已被 Git 忽略。
+
 🇺🇸 [English](./README-en.md) | 🇨🇳 简体中文
 
 <img src="https://gw.alicdn.com/imgextra/i1/O1CN01xol8Y21oUw1VeGgbZ_!!6000000005229-0-tps-1096-569.jpg" alt="main" width="800px">
