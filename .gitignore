@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+.env
+Key.json
+nltk_data/
+java-port/.tools/
+java-port/target/
+java-port-framework/target/
+java-port-framework/.agentscope/
+java-port-framework/knowledge_base/

@@ -1,0 +1,19 @@
+{
+  // Java 扩展（语言服务器）自身运行所需的 JDK，要求 25+
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/openjdk@25/libexec/openjdk.jdk/Contents/Home",
+  // 项目编译/运行使用的 JDK，与 pom.xml 中 maven.compiler.release=21 对应
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/Users/dailei/Documents/Codex/阿里云ACP认证/aliyun_acp_learning/java-port/.tools/jdk-21.0.13+9/Contents/Home",
+      "default": true
+    }
+  ],
+  "maven.executable.path": "/Users/dailei/Documents/Codex/阿里云ACP认证/aliyun_acp_learning/java-port/.tools/apache-maven-3.10.0/bin/mvn",
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "/Users/dailei/Documents/Codex/阿里云ACP认证/aliyun_acp_learning/java-port/.tools/jdk-21.0.13+9/Contents/Home"
+    }
+  ]
+}
